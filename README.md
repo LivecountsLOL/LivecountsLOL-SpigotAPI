@@ -10,7 +10,7 @@ This is a Spigot plugin for Minecraft servers that utilizes the Livecounts.lol A
 
 ## Installation
 
-1. Download the latest release JAR file from the [releases page](link/to/releases).
+1. Download the latest release JAR file from the [releases page](https://github.com/LivecountsLOL/LivecountsLOL-SpigotAPI/releases).
 2. Place the JAR file in the `plugins` folder of your Spigot server.
 3. Restart the server.
 
