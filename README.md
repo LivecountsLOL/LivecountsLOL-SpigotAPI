@@ -14,6 +14,36 @@ This is a Spigot plugin for Minecraft servers that utilizes the Livecounts.lol A
 2. Place the JAR file in the `plugins` folder of your Spigot server.
 3. Restart the server.
 
+## Installation
+
+To use the LiveCounts API Wrapper in your Spigot plugin project, you can include the `LivecountsAPIWrapper.jar` file as a dependency. Additionally, ensure that the plugin is installed and enabled on your Spigot server.
+
+## API Documentation
+
+### `LivecountsAPIWrapper` Class
+
+The `LivecountsAPIWrapper` class provides methods for interacting with the Livecounts.lol API and fetching channel estimates.
+
+#### `getChannelEstimates(String channelId)`
+
+Fetches channel estimates for the specified YouTube channel ID.
+
+- Parameters:
+  - `channelId`: The ID of the YouTube channel for which to fetch estimates.
+- Returns:
+  - A `ChannelEstimates` object containing the fetched estimates.
+
+#### `ChannelEstimates` Class
+
+The `ChannelEstimates` class represents the estimates fetched from the Livecounts.lol API.
+
+##### Methods
+
+- `getSubscriberCount()`: Returns the subscriber count estimate.
+- `getViewCount()`: Returns the view count estimate.
+- `getVideoCount()`: Returns the video count estimate.
+- `getEstimatedDataContents()`: Returns additional data contents included in the estimate response.
+
 ## Usage
 
 Once installed, the plugin will automatically fetch channel estimates from the Livecounts.lol API. You can access the fetched data through the provided API wrapper class.
