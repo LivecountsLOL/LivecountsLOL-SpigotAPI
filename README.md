@@ -29,7 +29,8 @@ try {
     // Use the fetched data as needed
 } catch (IOException | ParseException e) {
     // Handle exceptions
-}```
+}
+```
 
 Make sure to replace "YOUR_API_KEY" with your actual Livecounts.lol API key and "CHANNEL_ID" with the ID of the YouTube channel for which you want to fetch estimates.
 
